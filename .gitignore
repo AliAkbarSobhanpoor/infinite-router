@@ -1,0 +1,53 @@
+*.so
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+
+# ======================
+# Node / Frontend
+# ======================
+
+node_modules/
+dist/
+dist-ssr/
+
+# Environment variables
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+*.log
+
+
+# ======================
+# Databases
+# ======================
+
+**/db.sqlite3
+
+
+# ======================
+# OS generated files
+# ======================
+
+.DS_Store
+
+
+# ======================
+# Visual Studio files
+# ======================
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw
