@@ -1,8 +1,6 @@
-from datetime import UTC, datetime, timezone
-from typing import Annotated
+from datetime import UTC, datetime
 
-from fastapi import Depends, FastAPI, HTTPException, Query
-from sqlmodel import Field, Session, SQLModel, create_engine, select
+from sqlmodel import Field, SQLModel
 
 
 class User(SQLModel, table=True):
